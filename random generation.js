@@ -33,7 +33,6 @@ function startup() {
 	b1 = document.getElementById("button1");
 	b2 = document.getElementById("button2");
   b3 = document.getElementById("button3");
-  b8 = document.getElementById("button8");
 
 
 	//text at the top
@@ -53,7 +52,6 @@ function startup() {
 	b1.style.visibility = "visible";
 	b2.style.visibility = "visible";
   b3.style.visibility="hidden";
-  b8.style.visibility="hidden";
 
 	b0.innerHTML = "sum";
 	b1.innerHTML = "subtraction";
