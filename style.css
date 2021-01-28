@@ -1,0 +1,107 @@
+/* playlist.css */
+
+body {
+	font-family: arial, sans-serif;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.nomargin {
+margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;
+}
+
+
+@-ms-viewport{
+  width: device-width;
+}
+
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+	margin: 5px;
+	margin-bottom: 100px;
+}
+
+.clearfix {
+    clear:both;
+}
+
+.center
+{
+	text-align:center;
+}
+
+.left
+{
+	float: left;
+}
+
+.bottom
+{
+	float: bottom;
+}
+.right
+{
+	float: right;
+}
+.big
+{
+	font-size: 160px;
+}
+
+.medium
+{
+	font-size: 40px;
+}
+.small2
+{
+	font-size: 30px;
+}
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+.container {
+	 text-align:center;
+
+}
+
+#game1 ,#game2, #game3,#game4  {
+	width: 377px;
+	height: 150px;
+    border: 1px solid #dadada;
+    padding: 0;
+		margin-left: 25%;
+}
+
+#game1   > li ,#game2  > li , #game3  > li ,#game4  > li {
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    text-decoration:none;
+    width: 75px;
+    height: 75px;
+    background: #f1f1f1;
+    border: 1px solid #000000;
+    border-right: 1px solid #000000;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+			font-size: 30px;
+
+}
