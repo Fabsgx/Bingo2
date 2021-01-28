@@ -9,6 +9,7 @@ body {
     margin: 0 auto;
 }
 
+
 .nomargin {
 margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;
 }
@@ -30,7 +31,7 @@ margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;
   display: inline-block;
   font-size: 30px;
 	margin: 5px;
-	margin-bottom: 100px;
+
 }
 
 .clearfix {
@@ -77,13 +78,15 @@ margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;
 	 text-align:center;
 
 }
-
+#last_col {
+	display: flex;
+}
 #game1 ,#game2, #game3,#game4  {
-	width: 377px;
-	height: 150px;
+		width: 377px;
+		height: 150px;
     border: 1px solid #dadada;
     padding: 0;
-		margin-left: 25%;
+		margin-left: 23%;
 }
 
 #game1   > li ,#game2  > li , #game3  > li ,#game4  > li {
@@ -102,6 +105,6 @@ margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;
     padding-top: 20px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-			font-size: 30px;
+		font-size: 30px;
 
 }
